@@ -13,6 +13,8 @@
 		3977DFCC26D6862B00CA80B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3977DFCA26D6862B00CA80B8 /* Main.storyboard */; };
 		3977DFCE26D6862F00CA80B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3977DFCD26D6862F00CA80B8 /* Assets.xcassets */; };
 		3977DFD126D6862F00CA80B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3977DFCF26D6862F00CA80B8 /* LaunchScreen.storyboard */; };
+		3983312126D69C140038DDF6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983312026D69C140038DDF6 /* CustomTextField.swift */; };
+		3983312426D6A4BA0038DDF6 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983312326D6A4BA0038DDF6 /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3977DFCD26D6862F00CA80B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3977DFD026D6862F00CA80B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3977DFD226D6862F00CA80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983312026D69C140038DDF6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3983312326D6A4BA0038DDF6 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3977DFCD26D6862F00CA80B8 /* Assets.xcassets */,
 				3977DFCF26D6862F00CA80B8 /* LaunchScreen.storyboard */,
 				3977DFD226D6862F00CA80B8 /* Info.plist */,
+				3983312026D69C140038DDF6 /* CustomTextField.swift */,
+				3983312326D6A4BA0038DDF6 /* ResetPasswordViewController.swift */,
 			);
 			path = Task;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3983312126D69C140038DDF6 /* CustomTextField.swift in Sources */,
 				3977DFC926D6862B00CA80B8 /* ViewController.swift in Sources */,
+				3983312426D6A4BA0038DDF6 /* ResetPasswordViewController.swift in Sources */,
 				3977DFC526D6862B00CA80B8 /* AppDelegate.swift in Sources */,
 				3977DFC726D6862B00CA80B8 /* SceneDelegate.swift in Sources */,
 			);
