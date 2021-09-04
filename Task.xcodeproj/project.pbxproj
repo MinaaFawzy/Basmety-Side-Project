@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3967ED7426E3B7A9004FFF42 /* SelectServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967ED7226E3B7A9004FFF42 /* SelectServiceVC.swift */; };
+		3967ED7526E3B7A9004FFF42 /* SelectServiceVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3967ED7326E3B7A9004FFF42 /* SelectServiceVCViewController.xib */; };
 		3977DFC526D6862B00CA80B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DFC426D6862B00CA80B8 /* AppDelegate.swift */; };
 		3977DFC726D6862B00CA80B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DFC626D6862B00CA80B8 /* SceneDelegate.swift */; };
 		3977DFC926D6862B00CA80B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977DFC826D6862B00CA80B8 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3967ED7226E3B7A9004FFF42 /* SelectServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiceVC.swift; sourceTree = "<group>"; };
+		3967ED7326E3B7A9004FFF42 /* SelectServiceVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectServiceVCViewController.xib; sourceTree = "<group>"; };
 		3977DFC126D6862B00CA80B8 /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3977DFC426D6862B00CA80B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3977DFC626D6862B00CA80B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3967ED7126E3B6C6004FFF42 /* selectService */ = {
+			isa = PBXGroup;
+			children = (
+				3967ED7226E3B7A9004FFF42 /* SelectServiceVC.swift */,
+				3967ED7326E3B7A9004FFF42 /* SelectServiceVCViewController.xib */,
+			);
+			name = selectService;
+			sourceTree = "<group>";
+		};
 		3977DFB826D6862B00CA80B8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		3977DFC326D6862B00CA80B8 /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				3967ED7126E3B6C6004FFF42 /* selectService */,
 				3977DFC426D6862B00CA80B8 /* AppDelegate.swift */,
 				3977DFC626D6862B00CA80B8 /* SceneDelegate.swift */,
 				3977DFC826D6862B00CA80B8 /* ViewController.swift */,
@@ -130,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3967ED7526E3B7A9004FFF42 /* SelectServiceVCViewController.xib in Resources */,
 				3977DFD126D6862F00CA80B8 /* LaunchScreen.storyboard in Resources */,
 				3977DFCE26D6862F00CA80B8 /* Assets.xcassets in Resources */,
 				3977DFCC26D6862B00CA80B8 /* Main.storyboard in Resources */,
@@ -143,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3967ED7426E3B7A9004FFF42 /* SelectServiceVC.swift in Sources */,
 				3983312126D69C140038DDF6 /* CustomTextField.swift in Sources */,
 				3977DFC926D6862B00CA80B8 /* ViewController.swift in Sources */,
 				3983312426D6A4BA0038DDF6 /* ResetPasswordViewController.swift in Sources */,
